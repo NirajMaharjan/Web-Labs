@@ -1,0 +1,25 @@
+body{
+    font-family: sans-serif;
+    background-color:bisque;
+}
+
+
+h1{
+    text-align: center;
+}
+
+.contact{
+    border: 1px solid black;
+    margin-top: 10px;
+    padding-left: 5px;
+}
+
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding:5px;
+}
+
+#links li{
+    list-style: none;
+}
