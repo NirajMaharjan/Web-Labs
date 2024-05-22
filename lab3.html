@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 3</title>
+    <link rel="stylesheet" href="./styles/lab3.css">
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+
+    <div class="form">
+        <form action="">
+            <div id="name">
+                <label for="fname">Full Name</label>
+                <input type="text" required id="fname">
+            </div>
+    
+            <div id="dob">
+                <label for="date">DOB</label>
+                <input type="date" id="date">
+            </div>
+    
+            <div id="phone">
+                <label for="contact">Phone</label>
+                <input type="tel" id="contact">
+            </div>
+    
+            <div id="mail">
+                <label for="email">Email</label>
+                <input type="email">
+            </div>
+            <div id="gender">
+                <label for="gender">Gender</label>
+                <input type="radio" id="male" name="gender">
+                <label for="male">Male</label>
+    
+                <input type="radio" id="female" name="gender">
+                <label for="female">Female</label>
+            </div>
+    
+            <div id="address">
+                <div id="local">
+                    <label for="l_address">Local Address</label><br/>
+                    <textarea name="local" id="l_address" cols="20" rows="3"></textarea>
+                </div>
+                <div id="residential">
+                    <label for="r_address">Residential Address</label><br/>
+                    <textarea name="local" id="r_address" cols="20" rows="3"></textarea>
+                </div>
+            </div>
+    
+            <div id="last_school">
+                <label for="l_school">Last school/college</label>
+                <input type="text" id="l_school">
+            </div>
+    
+            <div id="course">
+                <p>I would like to choose following course</p>
+                <span>
+                    <input type="checkbox" id="csit" name="course" >
+                    <label for="csit">Bsc CSIT</label>
+                    <input type="checkbox" id="bca" name="course" >
+                    <label for="bca">BCA</label>
+                    <input type="checkbox" id="bbm" name="course" >
+                    <label for="bbm">BBM</label>
+                </span>
+    
+            </div>
+            <div id="signature">
+                <div id="student">
+                    <label for="st_sign">Student Signature</label>
+                </div>
+    
+                <div id="admin">
+                    <label for="admin_sign">Admin Signature</label>
+                </div>
+            </div>
+            <input type="submit" value="SUBMIT">
+    
+        </form>
+    </div>
+    
+</body>
+</html>
