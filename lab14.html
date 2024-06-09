@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="alertBtn()">Alert</button>
+    <button  onclick="confirmBtn()">Confirm</button>
+    <button onclick="promptBtn()">Prompt</button>
+
+    <h2 id="name"></h2>
+
+    <script>
+        let first="Niraj ";
+        let last="Maharjan";
+        console.log(first+last);
+        document.getElementById("name").innerText=first+last;
+
+        function alertBtn(){
+            alert("Alert button Clicked");
+        }
+        function confirmBtn(){
+            confirm("Confirm button Clicked");
+        }
+        function promptBtn(){
+            alert("Prompt button Clicked");
+        }
+    </script>
+</body>
+</html>
